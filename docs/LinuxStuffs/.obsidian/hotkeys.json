@@ -1,0 +1,26 @@
+{
+  "outline:open": [
+    {
+      "modifiers": [
+        "Meta"
+      ],
+      "key": "O"
+    }
+  ],
+  "obsidian-tabs:toggle-tabs": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ]
+}

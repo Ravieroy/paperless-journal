@@ -1,0 +1,100 @@
+site_name: My Knowledge Vault 
+site_url: https://ravieroy.github.io/knowledge-vault/
+site_author: Ravi Roy
+
+# Repository
+repo_name: Ravieroy/knowledge-vault
+repo_url: https://github.com/Ravieroy/knowledge-vault/
+
+# Configuration
+theme:
+  name: material
+  icon: 
+    repo: fontawesome/brands/github 
+    #for more see https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/#repository-name
+  # Static files
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    - content.code.annotate
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    # navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent:  blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+# Extensions
+markdown_extensions:
+  - footnotes
+  - admonition
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+  # - attr_list
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.magiclink
+  # - pymdownx.tasklist:
+  #     custom_checkbox: true
+#  - pymdownx.emoji:
+#      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  # - admonition
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - roamlinks 
+  - mermaid2
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Ravieroy
+    - icon: fontawesome/solid/blog
+      link: https://ravieroy.github.io/
+    - icon: fontawesome/brands/reddit-alien
+      link: https://www.reddit.com/user/Optimus-Prime1993

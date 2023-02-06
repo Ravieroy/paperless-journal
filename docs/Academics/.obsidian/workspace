@@ -1,0 +1,248 @@
+{
+  "main": {
+    "id": "3e88f884424883c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6b45bb49fdd7118",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conceptual_notes/Types of Weyl Semimetal.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "3e2cc4c5e4092eb8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conceptual_notes/Weyl Nodes.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "e8aa1e73ba1f85ca",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "papers/PRB.92.075133_Nandini_Trivedi.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "4df65f836eab06b8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conceptual_notes/Time reversal symmetry.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "61e56c743c48aa1d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conceptual_notes/WSM with broken T symmetry.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1e3eb3ffd66e5140",
+    "type": "split",
+    "children": [
+      {
+        "id": "71d994614fa2f205",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "63ab6dda2930f50b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b5582a9de82273bc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4f4a60a5a7d20e3b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7312300e33b6d89b",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc8cd6daf0184f37",
+        "type": "tabs",
+        "dimension": 41.717791411042946,
+        "children": [
+          {
+            "id": "a21503f2b2220eb4",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "af4f222a91227dc3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "papers/PRB.92.075133_Nandini_Trivedi.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b850171848f98b46",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "4eedaf6b594fd9dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "misc/Tasks.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "bd7aa9ca83de3944",
+        "type": "tabs",
+        "dimension": 58.282208588957054,
+        "children": [
+          {
+            "id": "5bed46d6dd29d977",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "papers/PRB.92.075133_Nandini_Trivedi.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7e71b4d8e668fb66",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "190bea27bec8e433",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "papers/PRB.92.075133_Nandini_Trivedi.md"
+              }
+            }
+          },
+          {
+            "id": "1a532dc5644e06ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "misc/Tasks.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 373
+  },
+  "active": "e8aa1e73ba1f85ca",
+  "lastOpenFiles": [
+    "conceptual_notes/WSM with broken T symmetry.md",
+    "papers/PRB.92.075133_Nandini_Trivedi.md",
+    "conceptual_notes/Time reversal symmetry.md",
+    "conceptual_notes/Weyl Nodes.md",
+    "conceptual_notes/Types of Weyl Semimetal.md",
+    "conceptual_notes/AV3Sb5 family.md",
+    "templates/Paper_Template.md",
+    "assets/WSM_Types-2.png",
+    "assets/WSM_Types.png",
+    "conceptual_notes/AV6Sb6 DFT.md"
+  ]
+}

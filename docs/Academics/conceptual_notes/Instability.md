@@ -1,0 +1,5 @@
+## Instability
+----
+- **Nesting Instability**. If an electron pocket can be translated in the Brillouin zone by a wave vector $\vec{Q}$ to coincide with another hole pocket, then the system is subject to strong nesting instability and can develop SDW/CDW order with the ordering momentum  $\vec{Q}$. So we can determine the order pattern by just looking at the position of the electron/hole pockets.
+- **Pairing Instability**. Pairing instability is a special kind of nesting instability between the pocket and its own particle-hole conjugate (which is always perfectly nested), which happens right on the Fermi surface. So the pairing pattern is usually very sensitive the shape of the Fermi pocket. To gain the most energy from pairing gap opening, the nodal line of the pairing order must usually avoid the Fermi pockets, or avoid the van-Hove singularities on the Fermi pockets. This helps to intuitively understand the $s^\pm$ wave pairing in the iron-base superconductors and the dd-wave pairing in copper-based superconductors.
+- ---

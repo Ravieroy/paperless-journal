@@ -1,0 +1,3 @@
+# Weyl Nodes
+---
+In [[Weyl semimetal]], breaking either inversion or [[Time reversal symmetry]] results in a pair of Dirac nodes separating into Weyl nodes. These Weyl nodes are monopoles of Berry curvature in the Brillouin zone, and the charge associated with such a monopole is known as its chirality. Weyl nodes must come in pairs of opposite chirality, such that the net chirality over the Brillouin zone is zero. A consequence of these bulk Weyl nodes is the existence of topological Fermi arcs on the surface of a TWS. 
