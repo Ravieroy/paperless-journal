@@ -2,7 +2,7 @@
 ---
 
 ## DNF Configuration 
-Open the config file for dnf using your desired editor using `sudo` privileges. Here I will be using [[Vim]] editor. You can use [[nano]] or most preferably [[gedit]] which is a GUI based text editor. 
+Open the config file for dnf using your desired editor using `sudo` privileges. Here I will be using [[Vim]] editor. You can use nano or most preferably any GUI based text editor. 
 
 ```bash 
 sudo vim /etc/dnf/dnf.conf

@@ -2,7 +2,7 @@
 >>Phys. Rev. B **103**, 195150
 
 ### Keywords 
-- Interplay between [[knowledge-vault/docs/Academics/conceptual_notes/CDW | CDW]] and [[knowledge-vault/docs/Academics/conceptual_notes/Superconductivity | Superconductivity]].
+- Interplay between [[CDW]] and [[Superconductivity]]
 
 ### Idea of the paper 
 

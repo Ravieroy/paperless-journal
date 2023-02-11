@@ -55,8 +55,11 @@ Drop the -b flag to checkout an existing branch
 
 ### Typical Workflow while working with remote repository
 **Step 1** : Check status of what files are modified and added or deleted using `git status`
+
 **Step 2 :** Add the files using `git add fileName` or the present working directory `git add .`
+
 **Step 3** : Commit the files using `git commit -m "commit message"`
+
 **Step 4** : Push the changes to GitHub repository by `git push`
 
 For more detail, please refer to the [cheatsheet by Atlassian](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet), or read the PDF [here](./assets/SWTM-2088_Atlassian-Git-Cheatsheet.pdf). 

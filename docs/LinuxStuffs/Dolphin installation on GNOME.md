@@ -13,7 +13,7 @@ Now it can be run simply by searching for `dolphin`, although the theme would be
 sudo apt install qt5ct
 ```
 
-Now this app is similar to [[lxappearance]] and manages the theming for qt-based app. It can be run graphically just by searching `qt5ct` but it will complain about environment issues which we will resolve now. Follow this [answer](https://unix.stackexchange.com/questions/502722/dolphin-background-and-font-color-are-both-white/660222#660222) for more details
+This app manages the theming for qt-based app. It can be run graphically just by searching `qt5ct` but it will complain about environment issues which we will resolve now. Follow this [answer](https://unix.stackexchange.com/questions/502722/dolphin-background-and-font-color-are-both-white/660222#660222) for more details
 
 **Step 3 : Set environment**
 
