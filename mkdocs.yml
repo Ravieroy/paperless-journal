@@ -1,10 +1,10 @@
-site_name: My Knowledge Vault 
-site_url: https://ravieroy.github.io/knowledge-vault/
+site_name: Journal of Everything 
+site_url: https://ravieroy.github.io/paperless-journal/
 site_author: Ravi Roy
 
 # Repository
-repo_name: Ravieroy/knowledge-vault
-repo_url: https://github.com/Ravieroy/knowledge-vault/
+repo_name: Ravieroy/paperless-journal
+repo_url: https://github.com/Ravieroy/paperless-journal/
 
 # Configuration
 theme:
