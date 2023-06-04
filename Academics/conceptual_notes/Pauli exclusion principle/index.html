@@ -1,0 +1,1517 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="Ravi Roy" name="author"/>
+<link href="https://ravieroy.github.io/paperless-journal/Academics/conceptual_notes/Pauli%20exclusion%20principle/" rel="canonical"/>
+<link href="../Optical%20gyrotropy/" rel="prev"/>
+<link href="../Peierls%20Transition/" rel="next"/>
+<link href="../../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.4.3, mkdocs-material-9.1.15" name="generator"/>
+<title>Pauli's exclusion principle - Journal of Everything</title>
+<link href="../../../assets/stylesheets/main.26e3688c.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.ecc896b0.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="blue" data-md-color-primary="blue-grey" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#paulis-exclusion-principle">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Journal of Everything" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="Journal of Everything">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Journal of Everything
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Pauli's exclusion principle
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="blue" data-md-color-media="" data-md-color-primary="blue-grey" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="blue" data-md-color-media="" data-md-color-primary="indigo" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"></path></svg>
+</label>
+</form>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<a aria-label="Share" class="md-search__icon md-icon" data-clipboard="" data-clipboard-text="" data-md-component="search-share" href="javascript:void(0)" tabindex="-1" title="Share">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"></path></svg>
+</a>
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/Ravieroy/paperless-journal/" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+</div>
+<div class="md-source__repository">
+    Ravieroy/paperless-journal
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<nav aria-label="Tabs" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../..">
+      Homepage
+    </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link md-tabs__link--active" href="../ARPES/">
+        Academics
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../EthicalHacking/Prerequisites/">
+        EthicalHacking
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../LinuxStuffs/Adding%20Vim%20Encyption/">
+        LinuxStuffs
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../Misc/Academic%20Notes%20Homepage/">
+        Misc
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../QuantumEspresso/Band%20structure%20calculation%20for%20Silicon/">
+        QuantumEspresso
+      </a>
+</li>
+</ul>
+</div>
+</nav>
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Journal of Everything" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="Journal of Everything">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+    Journal of Everything
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/Ravieroy/paperless-journal/" title="Go to repository">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+</div>
+<div class="md-source__repository">
+    Ravieroy/paperless-journal
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../..">
+        Homepage
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          Academics
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_2_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          Academics
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_2_1" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+          Conceptual notes
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="true" aria-labelledby="__nav_2_1_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_1">
+<span class="md-nav__icon md-icon"></span>
+          Conceptual notes
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../ARPES/">
+        Angle resolved photoemission spectroscopy(ARPES)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../AV3Sb5%20ARPES/">
+        AV3Sb5 ARPES
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../AV3Sb5%20DFT/">
+        AV3Sb5 DFT
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../AV3Sb5%20and%20AV6Sb6%20comparison/">
+        AV3Sb5 and AV6Sb6 comparison
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../AV3Sb5%20anomalies/">
+        AV3Sb5 anomalies
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../AV3Sb5%20band%20structure/">
+        AV3Sb5 band structure
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../AV3Sb5%20family/">
+        AV3Sb5 family
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../AV3Sb5%20general%20properties/">
+        AV3Sb5 general properties
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../AV6Sb6%20DFT/">
+        AV6Sb6 DFT
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../AV6Sb6%20family/">
+        AV6Sb6 family
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Accidental%20degeneracy/">
+        Accidental degeneracy
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Anomalous%20Hall%20effect/">
+        Anomalous Hall effect
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../BdG/">
+        BdG
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Behavior%20near%20CDW/">
+        Behavior near CDW
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Berry%20curvature/">
+        Berry curvature
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../CDW%20in%20NbSe3/">
+        CDW in NbSe3
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../CDW/">
+        CDW
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Chiral%20Anomaly/">
+        Chiral Anomaly
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Chiral%20Chemical%20Potential/">
+        Chiral Chemical Potential
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Chiral%20magnetic%20effect/">
+        Chiral magnetic effect
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Chirality/">
+        Chirality
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../CsV3Sb5%20DFT/">
+        CsV3Sb5 DFT
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../CsV3Sb5/">
+        CsV3Sb5
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../CsV6Sb6%20ARPES/">
+        CsV6Sb6 ARPES
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../DFT/">
+        DFT
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../DMFT/">
+        DMFT
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Degree%20of%20freedom/">
+        Degree of Freedom
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Density%20of%20states/">
+        Density of States
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Dielectric%20response/">
+        Dielectric Response
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Dynamic%20chiral%20magnetic%20effect/">
+        Dynamic chiral magnetic effect
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Electron-correlation%20effects/">
+        Electron Correlation
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Experimental%20signatures%20of%20CDW/">
+        Experimental signatures of CDW
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Fermi%20energy/">
+        Fermi energy
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Fermi%20level/">
+        Fermi level
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Fermi%20pockets/">
+        Fermi pockets
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Fermi%20surface%20nesting/">
+        Fermi Surface Nesting
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Fermi%20surface/">
+        Fermi Surface
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Ferromagnetism/">
+        Ferromagnetism
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../First%20order%20phase%20transition/">
+        First order phase transition
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Gauge%20Symmetry/">
+        Gauge Symmetry
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Geometric%20frustration/">
+        Geometric frustration
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../HP%20in%20Black%20Phosphorus/">
+        Hyperbolic Plasmon in Black Phosphorus
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Hall%20effect/">
+        Hall effect
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Helicity/">
+        Helicity
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Hyperbolic%20Plasmons%20%28HP%29/">
+        Hyperbolic Plasmons (HP)
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Hysteresis/">
+        Hysteresis
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../IDEAS/">
+        IDEAS
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Instability/">
+        Instability
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Inverse%20photoemission%20spectroscopy/">
+        Inverse photoemission spectroscopy
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Inversion%20symmetry%20breaking/">
+        Inversion symmetry breaking
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Inversion%20symmetry/">
+        Inversion symmetry
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../KV3Sb5/">
+        KV3Sb5
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Kagome%20Geometry/">
+        Kagome Geometry
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Kagome%20metal/">
+        Kagome metal
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Kramers%20Theorem/">
+        Kramers Theorem
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Literature_List/">
+        Literature List
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Majorana%20excitations/">
+        Majorana excitations
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Meissner%20effect/">
+        Meissner's effect
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Nambu%20representation/">
+        Nambu representation
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Nematicity/">
+        Nematicity
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Nodal%20superconductivity/">
+        Nodal superconductivity
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Operators%20and%20Symmetries/">
+        Operators and Symmetries
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Optical%20gyrotropy/">
+        Optical gyrotropy
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Pauli's exclusion principle
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Peierls%20Transition/">
+        Peierls Transition
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Phase%20diagram%20of%20AV3Sb5/">
+        Phase diagram of AV3Sb5
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Phase%20transition/">
+        Phase Transition
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Photoelectron%20spectroscopy/">
+        Photoelectron spectroscopy
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Plasma%20oscillation/">
+        Plasma Oscillation
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Quasi%202D%20Material/">
+        Quasi 2D Material
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Reciprocal%20lattice/">
+        Reciprocal lattice
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Resistivity/">
+        Resistivity
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../STM/">
+        STM
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Second-order%20transition/">
+        Second order transition
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Specific%20heat/">
+        Specific heat
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Strong%20coupling%20approach%20to%20CDW/">
+        Strong coupling approach to CDW
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Summary%20of%20work%20on%20Kagome/">
+        Summary of work on Kagome
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Superconducting%20van%20der%20Waals%20materials/">
+        Superconducting van der Waals materials
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Superconductivity/">
+        Superconductivity
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Surface%20Plasmons%20and%20Polaritons/">
+        Surface Plasmon
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Switch%20users%20and%20sudo%20access/">
+        Switch users and sudo access
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Tight-binding%20model/">
+        Tight binding model
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Time%20reversal%20symmetry/">
+        Time Reversal Symmetry
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Time-reversal%20invariant%20momentum%20%28TRIM%29/">
+        Time-Reversal Invariant Momenta
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Topology/">
+        Topology
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Types%20of%20CDW/">
+        Types of CDW
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Types%20of%20Weyl%20Semimetal/">
+        Weyl Semimetal : Types
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Van-Hove%20singularity/">
+        Van Hove singularity
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../WSM%20with%20broken%20P%20symmetry/">
+        WSM with broken P symmetry
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../WSM%20with%20broken%20T%20symmetry/">
+        WSM with broken T symmetry
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Weyl%20Basics/">
+        Weyl Basics
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Weyl%20Nodes/">
+        Weyl Nodes
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Weyl%20fermions/">
+        Weyl fermions
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Weyl%20semimetal/">
+        Weyl semimetal
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+          Misc
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_2_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_2">
+<span class="md-nav__icon md-icon"></span>
+          Misc
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../misc/Tags/">
+        Tags
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../misc/Tasks/">
+        Tasks
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+          Papers
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_3">
+<span class="md-nav__icon md-icon"></span>
+          Papers
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../papers/EPJ.B%2C93%2C77%282020%29_Sudipta_Koley/">
+        EPJ.B,93,77(2020) Sudipta Koley
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../papers/Nat.Comm.13%2C%202773_M_Shi/">
+        Nat.Comm.13, 2773 M Shi
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../papers/PNAS.1424791112_X_Zhu/">
+        PNAS.1424791112 X Zhu
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../papers/PRB.103.195150_Nei_Lopes/">
+        PRB.103.195150 Nei Lopes
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../papers/PRB.92.075133_Nandini_Trivedi/">
+        PRB.92.075133 Nandini Trivedi
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../papers/PRB.92.161110_Pallab_Goswami/">
+        PRB.92.161110 Pallab Goswami
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../papers/Weyl%20points%20ISB/">
+        Weyl points ISB
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_2_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+          Poster
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_2_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_4">
+<span class="md-nav__icon md-icon"></span>
+          Poster
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../poster/Abstract/">
+        A Strong Coupling Approach to Transition Metal Dichalcogenides
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../poster/EPC%20driven%20CDW/">
+        Electron-phonon coupling approach to CDW
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../poster/Steps%20to%20make%20an%20academic%20poster/">
+        Steps to make an academic poster
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          EthicalHacking
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          EthicalHacking
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../EthicalHacking/Prerequisites/">
+        Prerequisites
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../EthicalHacking/Some%20Common%20Errors/">
+        Some Common Errors
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_3_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+          Network Hacking
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_3_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_3_3">
+<span class="md-nav__icon md-icon"></span>
+          Network Hacking
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../EthicalHacking/Network%20Hacking/Deauthentication%20Attack/">
+        Deauthentication Attack
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../EthicalHacking/Network%20Hacking/MAC%20Address/">
+        MAC Address
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../EthicalHacking/Network%20Hacking/Network%20Hacking/">
+        Network Hacking
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../EthicalHacking/Network%20Hacking/Packet%20Sniffing/">
+        Packet Sniffing
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../EthicalHacking/Network%20Hacking/Pre-connection%20Attacks/">
+        Pre connection Attacks
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../EthicalHacking/Network%20Hacking/Targeted%20Packet%20Sniffing/">
+        Targeted Packet Sniffing
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../EthicalHacking/Network%20Hacking/WIFI%20Bands/">
+        WIFI Bands
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../EthicalHacking/Network%20Hacking/Wireless%20Adapter/">
+        Wireless Adapter
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../EthicalHacking/Network%20Hacking/Wireless%20Modes/">
+        Wireless Modes
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          LinuxStuffs
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+          LinuxStuffs
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Adding%20Vim%20Encyption/">
+        Adding Vim Encyption
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Apple%20Connect/">
+        Connecting iPad and iPhones to Linux
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/BIOS/">
+        BIOS
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Brightness%20in%20WM/">
+        Brightness in WM
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Changing%20System%20Hostname/">
+        Changing System Hostname
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Command%20Line%20Tools/">
+        Command line tools
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Custom%20ROM%20in%20Mi%20A2/">
+        Custom ROM in Mi A2
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Custom%20SSH%20Connections/">
+        Custom SSH Connections
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Delete%20All%20Commit%20History%20in%20GitHub/">
+        Delete all commit history in GitHub
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Dolphin%20Installation%20on%20GNOME/">
+        Dolphin Installation on GNOME
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Environment%20Variables/">
+        Environment Variables
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/FAQs/">
+        FAQs
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Finding%20System%20Information/">
+        Finding System Information
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Flash%20Ubuntu%20Touch/">
+        Flash Ubuntu Touch OS in Mi A2
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Flatpak/">
+        Flatpak Software management
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Font%20Spacing%20Bug%20in%20Konsole/">
+        Font spacing bug in Konsole
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Fonts%20Installation/">
+        Fonts Installation
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Git/">
+        Git
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Hide%20Native%20Tab%20Bar%20in%20Firefox/">
+        Hide native tab bar in Firefox
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Jump/">
+        Jump
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/LibreOffice%20Install/">
+        LibreOffice Install
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/LibreOffice%20Remove/">
+        Remove bundled LibreOffice
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Linux%20Account%20Authentication/">
+        Linux Account Authentication
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Manage%20User%20Profiles/">
+        Manage user profiles
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Monitor%20Users/">
+        Monitor Users
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Neovim/">
+        Neovim
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Oh-My-Zsh%20Installation/">
+        Oh My Zsh Installation
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/OpenOffice%20LibreOffice/">
+        OpenOffice LibreOffice
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/PDF%20Files%20List/">
+        PDF Files List
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/PPA%20Remove/">
+        PPA Remove
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Package%20Manager/">
+        Package Manager
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Password%20Aging/">
+        Password Aging
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Password%20Feedback%20in%20Terminal/">
+        Password Feedback in Terminal
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Process%20Commands/">
+        Process Commands
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Process%20Management/">
+        Process Management
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Processes%20and%20Jobs/">
+        Processes and Jobs
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Purge%20and%20Remove/">
+        Purge and Remove
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Recover%20Root%20Password/">
+        Recover Root Password
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/SOS%20Report/">
+        SOS Report
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/SSH%20Passwordless%20Login/">
+        SSH Passwordless Login
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/SSH/">
+        SSH
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Set%20An%20Alias/">
+        Set An Alias
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Setting%20Up%20Flatpak/">
+        Setting Up Flatpak
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Setting%20Up%20Git/">
+        Setting Up Git
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Special%20Permissions/">
+        Special Permissions
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/System%20Architecture/">
+        System Architecture
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/System%20Log%20Monitoring/">
+        System Log Monitoring
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/System%20Maintenance/">
+        System Maintenance
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/System%20Monitoring/">
+        System Monitoring
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/System%20Utility%20Commands/">
+        System Utility Commands
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Talking%20To%20Users/">
+        Talking To Users
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Terminal/">
+        Terminal
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Things%20To%20Do%20After%20Fedora%20Install/">
+        Things to do after Fedora install
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Ubuntu%20Touch%20Experience/">
+        Ubuntu Touch Experience
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Uninstall%20Applications/">
+        Uninstall Applications
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Useful%20Vim%20Commands/">
+        Useful Vim Commands
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/User%20Account%20Management/">
+        User Account Management
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Vim%20and%20Neovim/">
+        Difference between Vim and Neovim
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/Vim/">
+        Vim
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/at/">
+        At
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/bat/">
+        Bat
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/crontab/">
+        Crontab
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/df/">
+        Df
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/dmesg/">
+        Dmesg
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/du/">
+        Du
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/exa/">
+        Exa
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/fd/">
+        fd
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/free/">
+        Free
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/fzf/">
+        Fzf
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/kill/">
+        Kill
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/lsd/">
+        lsd
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/netstat/">
+        Netstat
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/nnn/">
+        Nnn
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/ps/">
+        Ps
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/sed/">
+        Sed
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/systemctl/">
+        Systemctl
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/top/">
+        Top
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/vipw/">
+        Vipw
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/visudo/">
+        Visudo
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/zsh/">
+        Zsh
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4_81" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_81" id="__nav_4_81_label" tabindex="0">
+          TODOS
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_81_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_81">
+<span class="md-nav__icon md-icon"></span>
+          TODOS
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/TODOS/Extraction/">
+        Extraction
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/TODOS/FOSS/">
+        FOSS
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/TODOS/Fastboot/">
+        Fastboot
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/TODOS/Install%20Vim%20plugins/">
+        Install Vim plugins
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/TODOS/Linux%20distros/">
+        Linux distros
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/TODOS/Synaptic/">
+        Synaptic package manager
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/TODOS/ripgrep/">
+        Ripgrep
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_4_82" type="checkbox"/>
+<label class="md-nav__link" for="__nav_4_82" id="__nav_4_82_label" tabindex="0">
+          Misc
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_4_82_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_82">
+<span class="md-nav__icon md-icon"></span>
+          Misc
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/misc/Tags/">
+        Tags
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../LinuxStuffs/misc/Tasks/">
+        Tasks
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          Misc
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+          Misc
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Misc/Academic%20Notes%20Homepage/">
+        Academic Notes Homepage
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Misc/Ethical%20Hacking%20Homepage/">
+        Ethical Hacking Homepage
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Misc/Forking%20this%20vault/">
+        Forking this vault
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Misc/Linux%20Homepage/">
+        Linux Homepage
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Misc/Manual/">
+        Manual
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
+<label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          QuantumEspresso
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-expanded="false" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+          QuantumEspresso
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../QuantumEspresso/Band%20structure%20calculation%20for%20Silicon/">
+        Band structure calculation for Silicon
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../QuantumEspresso/Installation/">
+        Installation
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../QuantumEspresso/Quantum%20Espresso/">
+        Quantum Espresso
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../QuantumEspresso/SCF%20Calculation%20for%20Silicon/">
+        SCF Calculation for Silicon
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="paulis-exclusion-principle">Pauli's exclusion principle<a class="headerlink" href="#paulis-exclusion-principle" title="Permanent link">¶</a></h1>
+<hr/>
+<p><img alt="Pauli_Exclusion_Principle.png" src="../../assets/Pauli_Exclusion_Principle.png"/></p>
+<p>The Pauli exclusion principle states that in a single atom no two electrons will have an identical set or the same quantum numbers (<span class="arithmatex">\(n\)</span>, <span class="arithmatex">\(l\)</span>, <span class="arithmatex">\(m_l\)</span>, and <span class="arithmatex">\(m_s\)</span>). To put it in simple terms, every electron should have or be in its own unique state (singlet state). There are two salient rules that the Pauli Exclusion Principle follows:</p>
+<ul>
+<li>Only two electrons can occupy the same orbital.</li>
+<li>The two electrons that are present in the same orbital must have opposite spins, or they should be antiparallel.</li>
+</ul>
+<p>However, <mark>Pauli’s Exclusion Principle does not only apply to electrons. It applies to other particles of half-integer spin, such as fermions.</mark> It is not relevant for particles with an integer spin, such as bosons which have symmetric wave functions. Moreover, bosons can share or have the same quantum states, unlike fermions. As far as the nomenclature goes, fermions are named after the Fermi–Dirac statistical distribution that they follow. Bosons, on the other hand, get their name from the Bose-Einstein distribution function.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Pauli_exclusion_example.png" src="../../assets/Pauli_exclusion_example.png"/></td>
+<td><img alt="Pauli_exclusion_example_2.png" src="../../assets/Pauli_exclusion_example_2.png"/></td>
+</tr>
+</tbody>
+</table>
+</article>
+</div>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+            Back to top
+          </button>
+</main>
+<footer class="md-footer">
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+<div class="md-social">
+<a class="md-social__link" href="https://github.com/Ravieroy" rel="noopener" target="_blank" title="github.com">
+<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+</a>
+<a class="md-social__link" href="https://ravieroy.github.io/" rel="noopener" target="_blank" title="ravieroy.github.io">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M192 32c0 17.7 14.3 32 32 32 123.7 0 224 100.3 224 224 0 17.7 14.3 32 32 32s32-14.3 32-32C512 128.9 383.1 0 224 0c-17.7 0-32 14.3-32 32zm0 96c0 17.7 14.3 32 32 32 70.7 0 128 57.3 128 128 0 17.7 14.3 32 32 32s32-14.3 32-32c0-106-86-192-192-192-17.7 0-32 14.3-32 32zm-96 16c0-26.5-21.5-48-48-48S0 117.5 0 144v224c0 79.5 64.5 144 144 144s144-64.5 144-144-64.5-144-144-144h-16v96h16c26.5 0 48 21.5 48 48s-21.5 48-48 48-48-21.5-48-48V144z"></path></svg>
+</a>
+<a class="md-social__link" href="https://www.reddit.com/user/Optimus-Prime1993" rel="noopener" target="_blank" title="www.reddit.com">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M440.3 203.5c-15 0-28.2 6.2-37.9 15.9-35.7-24.7-83.8-40.6-137.1-42.3L293 52.3l88.2 19.8c0 21.6 17.6 39.2 39.2 39.2 22 0 39.7-18.1 39.7-39.7s-17.6-39.7-39.7-39.7c-15.4 0-28.7 9.3-35.3 22l-97.4-21.6c-4.9-1.3-9.7 2.2-11 7.1L246.3 177c-52.9 2.2-100.5 18.1-136.3 42.8-9.7-10.1-23.4-16.3-38.4-16.3-55.6 0-73.8 74.6-22.9 100.1-1.8 7.9-2.6 16.3-2.6 24.7 0 83.8 94.4 151.7 210.3 151.7 116.4 0 210.8-67.9 210.8-151.7 0-8.4-.9-17.2-3.1-25.1 49.9-25.6 31.5-99.7-23.8-99.7zM129.4 308.9c0-22 17.6-39.7 39.7-39.7 21.6 0 39.2 17.6 39.2 39.7 0 21.6-17.6 39.2-39.2 39.2-22 .1-39.7-17.6-39.7-39.2zm214.3 93.5c-36.4 36.4-139.1 36.4-175.5 0-4-3.5-4-9.7 0-13.7 3.5-3.5 9.7-3.5 13.2 0 27.8 28.5 120 29 149 0 3.5-3.5 9.7-3.5 13.2 0 4.1 4 4.1 10.2.1 13.7zm-.8-54.2c-21.6 0-39.2-17.6-39.2-39.2 0-22 17.6-39.7 39.2-39.7 22 0 39.7 17.6 39.7 39.7-.1 21.5-17.7 39.2-39.7 39.2z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.annotate", "content.tooltips", "navigation.indexes", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+<script src="../../../assets/javascripts/bundle.b4d07000.min.js"></script>
+<script src="../../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</body>
+</html>
