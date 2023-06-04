@@ -6,7 +6,7 @@
 - Charge density waves([[CDW]])
 - [[Superconductivity]]
 - Transition metal dichalcogenides
--  Bogoliubov-de Gennes Theory ([[BdG Theory]])
+-  Bogoliubov-de Gennes Theory ([[BdG]])
 - [[DFT]]
 - [[DMFT]]
 - Disorder
@@ -21,7 +21,7 @@ By using real-space self-consistent Bogoliubov-de Gennes calculations and moment
 
 Large spectral weight transfer and absence of phonon signatures at typical energies in [[ARPES]] data, along with momentum-independent self-energy, are strong pointers to physics beyond(mean-field) single particle processes. 
 
-**In order to understand the competition, the problem of co-existing [[CDW]] and SC is taken, and a non-magnetic disorder is added to it. Two kinds of disorders are studied: random disorder and clusters of disordered regions of fixed strengths. Using [[BdG Theory]] formulation, the evolution of SC and [[CDW]] is observed by Monte Carlo method. A [[DFT]] followed by multi-orbital [[DMFT]] calculations has been done.** 
+**In order to understand the competition, the problem of co-existing [[CDW]] and SC is taken, and a non-magnetic disorder is added to it. Two kinds of disorders are studied: random disorder and clusters of disordered regions of fixed strengths. Using [[BdG]] formulation, the evolution of SC and [[CDW]] is observed by Monte Carlo method. A [[DFT]] followed by multi-orbital [[DMFT]] calculations has been done.** 
 
 #### Results from self-consistent BdG calculations 
 - Emergence of superconducting islands increases with increasing disorder even though the disorder is completely uncorrelated from site to site. 

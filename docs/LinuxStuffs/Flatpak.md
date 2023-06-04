@@ -2,7 +2,7 @@
 ---
 
 ## Search Applications
-In order to search for applications, one can use either [Flathub](https://flathub.org/home)website or use the following commands in [[Terminal]] after [[Setting up Flatpak]].
+In order to search for applications, one can use either [Flathub](https://flathub.org/home)website or use the following commands in [[Terminal]] after [[Setting Up Flatpak]].
 ```bash
 flatpak search keyWord 
 ```

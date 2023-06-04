@@ -23,7 +23,7 @@ sudo apt install lsd
 ## Usage
 Once installed successfully,it can be used just like `ls` command. Instead of `ls` now use `lsd`
 
-***Some kind of font packages like [Font Awesome](https://fontawesome.com/) or [Nerd Fonts](https://www.nerdfonts.com/) are required for this to work nicely. [[Fonts installation]] is quite easy on Linux as well.*** 
+***Some kind of font packages like [Font Awesome](https://fontawesome.com/) or [Nerd Fonts](https://www.nerdfonts.com/) are required for this to work nicely. [[Fonts Installation]] is quite easy on Linux as well.*** 
 
 ***An alias `alias ls="lsd"` can be added in the .bashrc file to keep using `ls` but with the functionality of `lsd`. After adding the alias,***
 

@@ -1,6 +1,3 @@
-
-
-# Command Line Utility: `bat`
 Links : [Releases](https://github.com/sharkdp/bat/releases), [GitHub](https://github.com/sharkdp/bat)
 
 ## Functionality 

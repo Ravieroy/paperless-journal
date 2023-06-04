@@ -1,0 +1,3 @@
+- Difference between a 32-bit and 64-bit CPU
+	- **A big difference between 32-bit processors and 64-bit processors is the number of calculations per second they can perform,**  which affects the speed at which they can complete tasks. 64-bit processors can come in dual core, quad core, six core and eight core versions for home computing. Multiple cores allow for an increased number of calculations per second that can be performed, which can increase the processing power and help make a computer run faster. Software programs that require many calculations to function smoothly can operate faster and more efficiently on the multi-core 64-bit processors. 
+- **Linux** : `arch` command will tell us the system architecture. 

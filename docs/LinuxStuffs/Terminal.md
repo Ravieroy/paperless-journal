@@ -1,7 +1,32 @@
 Terminal is one of the most powerful programs on Linux. The terminal emulator allows an end-user to access the console as well as its applications such as text user interface and command-line interface. Some of the most used terminal emulators are mentioned below. 
 
-### 1. Terminator 
-Inorder to install Terminator, we can use default [[Package manager]], 
+### 1. Terminal Commands
+
+- `clear` : Clears your screen
+- `exit` : Exit out of the shell or a user session
+- `script` : This command stores terminal activities in a log file that can be named by a user. When a name is not provided by the user, the default filename *typescript* is used.
+
+```bash
+Record a new session to a file named `typescript` in the current directory:
+
+      script
+
+  Record a new session to a custom filepath:
+
+      script path/to/session.out
+
+  Record a new session, appending to an existing file:
+
+      script -a path/to/session.out
+
+  Record timing information (data is outputted to the standard error):
+
+      script -t 2> path/to/timingfile
+```
+
+### 2. Terminator
+
+Inorder to install Terminator, we can use default [[Package Manager]], 
 *For Debian/Ubuntu based distros*
 ```bash
 sudo apt install terminator
@@ -12,7 +37,7 @@ For Fedora
 sudo dnf install terminator
 ```
 
-### 2.  Kitty 
+### 3.  Kitty 
 
 *For Debian/Ubuntu based distros*
 ```bash
@@ -46,4 +71,14 @@ There are preinstalled terminal emulator in every [[Linux distros]] which can be
 | Forward Search | ctrl+s | Execute most Recent "command"     | !`<com>`   |
 | Quit Search    | ctrl+g | Displays "command" to be Executed | !`<com>`:p |
 |                |        |                                   |            |
-|                |        |                                   |            |
+
+| KEY |     | ACTION               |
+| ---------- | --- | -------------------- |
+| CTRL-u         |     | Erase everything to start of the line          |
+| CTRL-c        |     | Stop or kill a command      |
+| CTRL-z         |     |  Suspend or put in background                |
+| CTRL-d   |     | Exit out of interactive program |
+| CTRL-k     |     | Erase everything to the end of the line        |
+|            |     |                      |
+
+

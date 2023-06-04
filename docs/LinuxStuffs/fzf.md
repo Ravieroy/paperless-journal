@@ -7,7 +7,7 @@ Some of the cool features are as follows,
 3. Interactive match selection lets the user select the desired match after initial filtering.
 
 ## Installation 
-`fzf` can be installed using [[Package manager]] for specific distribution. For example, 
+`fzf` can be installed using [[Package Manager]] for specific distribution. For example, 
 ### Fedora 
 ```bash 
 sudo dnf install fzf
@@ -24,7 +24,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 ```
 
 ## Upgrading `fzf`
-It can be installed like other applications, using [[Package manager]] or depending upon the installation method, this [GitHub Link](https://github.com/junegunn/fzf) has proper instructions to do that. Also read how to [[Install Vim plugins]], if [[vim-plug]] is used to install fzf. 
+It can be installed like other applications, using [[Package Manager]] or depending upon the installation method, this [GitHub Link](https://github.com/junegunn/fzf) has proper instructions to do that. Also read how to [[Install Vim plugins]], if [[vim-plug]] is used to install fzf. 
 
 ## Usage 
 By default, `fzf` searches all files under the current directory, allows you to filter and search interactively, then prints the result to standard output. `fzf` updates the matches dynamically while we type the search terms in any order.

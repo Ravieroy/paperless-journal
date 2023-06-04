@@ -4,11 +4,13 @@ These notes are best served in the web format, and here is where you should star
 
 - [[Academic Notes Homepage]]
 - [[Linux Homepage]]
+- [[Ethical Hacking Homepage]]
 
 ---
 !!! note "Graph View" 
 
 ![[Graph_View_Full.png]]
+
 
 
 ==Graph view in my Obsdian Vault using the same notes==

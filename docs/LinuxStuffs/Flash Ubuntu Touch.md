@@ -3,7 +3,7 @@
 
 [Ubuntu Touch](https://ubuntu-touch.io/) is a community project for the development and promotion of an innovative mobile operating system. A full list of all supported devices can be found [here](https://devices.ubuntu-touch.io/). The tutorial is for Xiaomi Mi A2. 
 
-***Before installing Ubuntu Touch on the phone read my [[Ubuntu touch experience]] to manage the expectations and to understand what are its pros and cons***
+***Before installing Ubuntu Touch on the phone read my [[Ubuntu Touch Experience]] to manage the expectations and to understand what are its pros and cons***
 
 ## Requirements 
 1. SDK Platform Tools ([Download Link](https://developer.android.com/studio/releases/platform-tools))

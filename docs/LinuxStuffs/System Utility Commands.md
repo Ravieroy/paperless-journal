@@ -1,0 +1,29 @@
+- `date` : 
+- `uptime`
+- `hostname`
+- `uname`
+- `which`
+- `cal`
+- `bc`
+
+- `date`
+	- returns present date and time 
+- `uptime`
+	- returns how long the system is running 
+	- number of users 
+	- load average 
+- `hostname`
+	- returns the username
+- `uname`
+	- returns the OS
+	- returns lot of information with different flags 
+- `which`
+	- returns where any command resides 
+	- `which pwd` returns `/usr/bin/date`
+- `cal`
+	- returns calendar of present month
+	- `cal 9 1977` will return the calendar of 1977 for September.
+	- `cal 2016` will return calendar for all the months of 2016
+- `bc`
+	- stands for binary calculator 
+

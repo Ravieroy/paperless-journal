@@ -6,9 +6,10 @@ Graph View (from my Obsidian vault)
 
 
 ## Alphabetical List 
+
 | A                                | B                     | C                             | D                                  | E                                  |
 | -------------------------------- | --------------------- | ----------------------------- | ---------------------------------- | ---------------------------------- |
-| [[Accidental degeneracy]]        | [[BdG Theory]]               | [[CDW]]                       | [[Degree of freedom]]              | [[Electron-correlation effects]]   |
+| [[Accidental degeneracy]]        | [[BdG]]               | [[CDW]]                       | [[Degree of freedom]]              | [[Electron-correlation effects]]   |
 | [[Anomalous Hall effect]]        | [[Behavior near CDW]] | [[CDW in NbSe3]]              | [[Density of states]]              | [[Experimental signatures of CDW]] |
 | [[ARPES]]                        | [[Berry curvature]]   | [[Chiral Anomaly]]            | [[DFT]]                            |                                    |
 | [[AV3Sb5 and AV6Sb6 comparison]] |                       | [[Chiral Chemical Potential]] | [[Dielectric response]]            |                                    |
@@ -44,17 +45,18 @@ Graph View (from my Obsidian vault)
 |                     |                     |                     |                |     |
 
 ---
-| P                             | Q                     | R                      | S                                   | T                                           |
-| ----------------------------- | --------------------- | ---------------------- | ----------------------------------- | ------------------------------------------- |
-| [[Pauli exclusion principle]] | [[Quasi 2D Material]] | [[Reciprocal lattice]] | [[Second-order transition]]         | [[Time reversal symmetry]]                  |
-| [[Peierls Transition]]        |                       | [[Resistivity]]        | [[Surface Plasmons and Polaritons]]                      | [[Time-reversal invariant momentum (TRIM)]] |
-| [[Phase diagram of AV3Sb5]]   |                       |                        | [[Specific heat]]                   | [[Topology]]                                |
-| [[Phase transition]]          |                       |                        | [[STM]]                             | [[Types of CDW]]                            |
-| [[Plasma oscillation]]        |                       |                        | [[Strong coupling approach to CDW]] |                                             |
-| [[Photoelectron spectroscopy]]                              |                       |                        | [[Summary of work on Kagome]]       |                                             |
-|                               |                       |                        | [[Superconductivity]]               |                                             |
-|                               |                       |                        | [[Surface Plasmons and Polaritons]] |                                             |
-|                               |                       |                        |                                     |                                             |
+
+| P                              | Q                     | R                      | S                                   | T                                           |
+| ------------------------------ | --------------------- | ---------------------- | ----------------------------------- | ------------------------------------------- |
+| [[Pauli exclusion principle]]  | [[Quasi 2D Material]] | [[Reciprocal lattice]] | [[Second-order transition]]         | [[Time reversal symmetry]]                  |
+| [[Peierls Transition]]         |                       | [[Resistivity]]        | [[Surface Plasmons and Polaritons]] | [[Time-reversal invariant momentum (TRIM)]] |
+| [[Phase diagram of AV3Sb5]]    |                       |                        | [[Specific heat]]                   | [[Topology]]                                |
+| [[Phase transition]]           |                       |                        | [[STM]]                             | [[Types of CDW]]                            |
+| [[Plasma oscillation]]         |                       |                        | [[Strong coupling approach to CDW]] |                                             |
+| [[Photoelectron spectroscopy]] |                       |                        | [[Summary of work on Kagome]]       |                                             |
+|                                |                       |                        | [[Superconductivity]]               |                                             |
+|                                |                       |                        | [[Surface Plasmons and Polaritons]] |                                             |
+|                                |                       |                        |                                     |                                             |
 
 ---
 
@@ -69,12 +71,13 @@ Graph View (from my Obsidian vault)
 ---
 
 ## A mildly curated list
+
 | Basics                             | Kagome                           | Weyl Semimetals                             | Misc                                |
 | ---------------------------------- | -------------------------------- | ------------------------------------------- | ----------------------------------- |
 | [[Accidental degeneracy]]          | [[AV3Sb5 and AV6Sb6 comparison]] | [[Optical gyrotropy]]                       | [[Strong coupling approach to CDW]] |
 | [[Anomalous Hall effect]]          | [[AV3Sb5 anomalies]]             | [[Time reversal symmetry]]                  | [[Surface Plasmons and Polaritons]] |
 | [[ARPES]]                          | [[AV3Sb5 band structure]]        | [[Time-reversal invariant momentum (TRIM)]] | [[Types of CDW]]                    |
-| [[BdG Theory]]                            | [[AV3Sb5 DFT]]                   | [[Topology]]                                |                                     |
+| [[BdG]]                            | [[AV3Sb5 DFT]]                   | [[Topology]]                                |                                     |
 | [[Behavior near CDW]]              | [[AV3Sb5 family]]                | [[Weyl Basics]]                             |                                     |
 | [[Berry curvature]]                | [[AV3Sb5 general properties]]    | [[Weyl fermions]]                           |                                     |
 | [[CDW]]                            | [[AV6Sb6 family]]                | [[Weyl semimetal]]                          |                                     |
