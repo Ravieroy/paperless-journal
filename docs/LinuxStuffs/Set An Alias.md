@@ -22,3 +22,7 @@ One can use one's preffered text editor in place of vim in the above command. Ne
 ```bash
 source .zshrc
 ```
+
+### Creating User or Global Alias
+
+To create a user alias, simply make the changes in the `/home/user/.bashrc` file while for any global alias make the changes in `/etc/bashrc` file. 

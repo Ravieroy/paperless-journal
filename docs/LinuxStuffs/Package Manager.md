@@ -9,6 +9,11 @@ To search the repositories for a package type:
 dnf search packagename
 ```
 
+To check if the package exists:
+```bash
+rpm -qa | grep packagename
+```
+
 To install the package:
 ```bash
 sudo dnf install packagename
@@ -16,10 +21,43 @@ sudo dnf install packagename
 
 To remove a package:
 ```bash
+#using dnf
 sudo dnf remove packagename
+
+# using rpm
+rpm -e packagename
 ```
 
-Other common DNF commands 
+To install from a `.rpm` file:
+```bash
+#using rpm
+rpm -hiv packagename.rpm
+
+#using dnf
+sudo dnf install packagename.rpm
+```
+
+To verify package details and information:
+```bash
+rpm -qi packagename
+
+#search for exact name if required using rpm -qa | grep packagename
+```
+
+To see the location of configuration files:
+```bash
+rpm -qc packagename
+```
+
+To check the package any particular command belongs to:
+```bash
+rpm -qf /path/to/command
+
+#example
+rpm -qf /usr/bin/pwd
+```
+
+Other common `dnf` commands 
 -   `autoremove` - removes packages installed as dependencies that are no longer required by currently installed programs.
     
 -   `check-update` - checks for updates, but does not download or install the packages.

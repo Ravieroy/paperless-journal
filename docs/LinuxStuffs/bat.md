@@ -33,5 +33,9 @@ source .bashrc
 ```
 *There are other [[Terminal]] shells like [[zsh]] and others. All of them have a file similar to .bashrc*
 
+----
+Useful Links :
+1. [[Set An Alias]]
+
 
 
