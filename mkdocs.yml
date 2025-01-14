@@ -1,10 +1,10 @@
-site_name: Journal of Everything 
-site_url: https://ravieroy.github.io/paperless-journal/
+site_name: Pensieve
+site_url: https://ravieroy.github.io/pensieve/
 site_author: Ravi Roy
 
 # Repository
-repo_name: Ravieroy/paperless-journal
-repo_url: https://github.com/Ravieroy/paperless-journal/
+repo_name: Ravieroy/Pensieve
+repo_url: https://github.com/Ravieroy/pensieve/
 
 # Configuration
 theme:
